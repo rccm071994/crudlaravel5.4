@@ -4,6 +4,7 @@ namespace rccm\Http\Controllers;
 
 use Illuminate\Http\Request;
 use rccm\Product;
+use rccm\Http\Requests\ProductRequest;
 
 class ProductController extends Controller
 {
@@ -17,11 +18,20 @@ class ProductController extends Controller
     {
       return view('products.create');
     }
+    public function store(ProductRequest $request)
+    {
+      return 'products guardado';
+    }
 
     public function edit($id)
     {
       $product =  Product::find($id);
       return view('products.edit', compact('product'));
+    }
+
+    public function update(ProductRequest $request, $id)
+    {
+      return 'products actualizado' . $id;
     }
 
     public function show($id)
