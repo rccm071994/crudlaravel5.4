@@ -12,6 +12,8 @@
       </p>
       {!! $product->body !!}
     </div>
-
+    <div class="col-md-4">
+      @include('products.fragment.aside')
+    </div>
 
 @endsection

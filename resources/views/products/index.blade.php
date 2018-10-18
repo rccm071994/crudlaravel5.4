@@ -6,7 +6,7 @@
       Listado de Productos
       <a href="{{ route('products.create')}}" class="btn btn-primary pull-right">Nuevo</a>
     </h2>
-
+    @include('products.fragment.info')
     <table class="table table-hover table-striped">
         <thead>
           <tr>
@@ -43,6 +43,6 @@
       {!! $products->render()!!}
   </div>
   <div class="col-sm-4">
-    la vida es bella
+    @include('products.fragment.aside')
   </div>
 @endsection
