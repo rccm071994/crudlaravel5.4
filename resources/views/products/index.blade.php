@@ -22,7 +22,7 @@
               <td>
                   <strong> {{ $product->name}} </strong>
                   {{ $product->short}}
-              </td>
+              </td>              
               <td>
                 <a href="{{ route('products.show', $product->id) }}" class="btn btn-link">Ver</a>
               </td>

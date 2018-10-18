@@ -79,12 +79,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Crud Laravel 5.4 2018 Ian Cota
+                    Crud Laravel 5.4
                 </div>
 
                 <div class="links">
                     <a href="{{ route('products.index') }}">Listado de Productos</a>
-                  
+
                 </div>
             </div>
         </div>
