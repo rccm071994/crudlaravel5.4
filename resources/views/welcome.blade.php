@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Crud Laravel 5.4 2018
+                    Crud Laravel 5.4 2018 Ian Cota
                 </div>
 
                 <div class="links">
