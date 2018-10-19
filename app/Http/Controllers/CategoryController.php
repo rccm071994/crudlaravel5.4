@@ -56,9 +56,6 @@ class CategoryController extends Controller
       return view('categorys.show', compact('category'));
     }
 
-
-
-
     public function destroy($id)
     {
       $category = Category::find($id);

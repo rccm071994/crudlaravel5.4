@@ -6,9 +6,9 @@
       <h2>
         {{ $category->name }}
         {{ $category->description }}
-        <a href="" class="btn btn-primary pull-right">Editar</a>
+        <a href="{{ route('categorys.edit', $category->id) }}" class="btn btn-primary pull-right">Editar</a>
       </h2>
-      
+
     </div>
     <div class="col-md-4">
       @include('products.fragment.aside')
